@@ -27,6 +27,6 @@ The overall circuit is shown below.
 
 I actually learned more with this circuit than I had anticipated. A few conclusions worth mentioning:
 
-- The crystal-based oscillator circuit exploits 74LS04 not only to create the necessary 180 degree phase shifts, but also to amplify the signal. First time I ever saw inverters being used for "non-logic" operations!
+- The crystal-based oscillator circuit exploits 74LS04 inverters not only to create the necessary 180 degree phase shifts, but also to amplify the signal. First time I ever saw inverters being used for "non-logic" operations!
 - I now finally understand why I had that funky 11.0592 Mhz crystal in my assorted kit: it is a multiple of common baud rates, so you divide the frequency with counters to get to the baud rate!
 - Inputs from the 8-bit computer must be synchronized with the UART module's clock to avoid violating setup time constraints. This is done with flip-flops.
