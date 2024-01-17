@@ -1,5 +1,7 @@
 # UART Transmission Module for Ben Eater's 8-Bit CPU
 
+![Splash](https://github.com/The8BitEnthusiast/uart-tx-module/blob/main/screenshots/splash.jpeg?raw=true)
+
 ## Overview
 
 This project was aimed at exploring serial communications and building a circuit on a breadboard. I also wanted to create a simple interface to Ben Eater's 8-bit CPU. Specific goals were to:
