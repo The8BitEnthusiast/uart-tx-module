@@ -21,7 +21,7 @@ For the interface to the computer, I tested out this really neat [UART-USB Modul
 
 The overall circuit is shown below.
 
-![UART Picture]()
+![UART Schematic](https://github.com/The8BitEnthusiast/uart-tx-module/blob/main/screenshots/CircuitSchematic.png?raw=true)
 
 ## Findings
 
