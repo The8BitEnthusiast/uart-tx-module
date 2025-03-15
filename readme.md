@@ -14,7 +14,7 @@ This project was aimed at exploring serial communications and building a circuit
 
 There are a lot of prior implementations of UART circuits on breadboard. I used this particular [design](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html?m=1) as my source of inspiration. The basic principle for the transmission component, which I have seen in use in many other designs, is to load a UART data frame, including the start bit and stop bit, in a shift register and then shifting the bits out. The changes I made to the circuit were mainly to accomodate the parts I had on hand:
 
-- I implemented the oscillator with a crystal instead of an oscillator can. The output is a 155,200 hertz clock signal. As such the computer's serial terminal application must be set to 115200 speed.
+- I implemented the oscillator with a crystal instead of an oscillator can. The output is a 115,200 hertz clock signal. As such the computer's serial terminal application must be set to 115200 speed.
 - As I ran out of counters, I changed the transmission approach by implementing a one-time pulse to load the shift registers upon receipt of a byte instead of controlling the transmission with a counter.
 
 For the interface to the computer, I tested out this really neat [UART-USB Module](https://www.ftdichip.com/old2020/Support/Documents/DataSheets/Modules/DS_LC234X.pdf). Pretty much plug-and-play if you already have the FTDI drivers installed on your computer.
